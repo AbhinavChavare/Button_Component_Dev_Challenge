@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Buttons Component}</h1>
+<h1 align="center">Buttons Component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+      <a href="https://abc-button-dev-challenge.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -53,6 +49,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://abc-button-dev-challenge.netlify.app/})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://twitter.com/abhinavchavare7})
+- Website [abc-button-dev-challenge.netlify.app](https://abc-button-dev-challenge.netlify.app/})
+- GitHub [AbhinavChavare](https://github.com/AbhinavChavare/Button_Component_Dev_Challenge)
+- Twitter [abhinavchavare7](https://twitter.com/abhinavchavare7})
