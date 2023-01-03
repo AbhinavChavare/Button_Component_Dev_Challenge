@@ -1,38 +1,173 @@
-.App {
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.App{
+background-color:rgb(93, 78, 253);
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.btn-wraper{
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-start; */
+  margin: 1rem;
+
+}
+.btn-all-comp{
+  margin: 2rem;
+  padding: 1rem;
+  background-color: rgb(174, 229, 252);
+  display: flex;
+  flex-direction: column;
+box-shadow: 2px 2px 0.5px rgb(68, 68, 73);
+  /* width: 25rem; */
+  border-radius: 4px;
+}
+
+.btn-data-all{
+  display: flex;
+  flex-wrap: wrap;
+  margin: .5rem ;
+  /* background-color: yellowgreen; */
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-all-comp .btn-container{
+  
+  margin: .2rem;
+
+}
+.btn-all-comp .btn-container h4{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-default:hover,:focus{
+  background-color: rgb(148, 144, 144);
+  color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head-border{
+  background-color: antiquewhite;
+  padding: .2rem 2.5rem;
+  box-shadow: 10px 5px 2px #333;
+  margin-top: 2rem;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head-border:hover,.head-border:focus{
+  transition: .2s linear  ;
+  box-shadow: -10px -5px 2px #333;
+}
+.App section{
+margin: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.App section .btn-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: rgb(235, 215, 252);
+border-radius: 3px;
+margin: 0.7rem ;
+padding: .5rem 1rem;
+
+}
+.btn-container .btn-Text{
+border: 1px solid 
+#2962FF;
+
+background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-container .btn-Text:hover, .btn-Text:focus {
+  color: #2962FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-container .btn-outline{
+
+  color: #2962FF;
+  background-color: #fff;
+}
+.btn-container .btn-outline:hover, .btn-outline:focus {
+  border: 1px solid 
+  #2962FF;
+}
+
+
+.btn-primary{
+  border: 1px solid 
+#2962FF;
+color:  #fff;
+background-color: #2962FF;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.iconz{
+  font-size: 1.3rem;
+  padding: .4rem;
+}
+.btn-primary:hover,.btn-primary:focus{
+  color: #2962FF;
+  background-color: #fff;
+}
+
+.btn-small{
+font-size: 1rem;
+}
+.btn-large{
+font-size: 2.5rem;
+padding: 0 .5rem;
+}
+.btn-secondary{
+  border: 1px solid 
+  #0abf04;
+  color:  #fff;
+  background-color:    #0abf04;
+}
+.btn-secondary:hover,.btn-secondary:focus {
+ 
+  color:   #0abf04;
+  background-color:   #fff;
+}
+.btn-danger{
+  border: 1px solid 
+  #d80c0c;
+  color:  #fff;
+  background-color:  #ce1b1b;
+}
+.btn-danger:hover,.btn-danger:focus {
+ 
+  color:    #ce1b1b;
+  background-color:   #fff;
+}
+
+@media (max-width:700px){
+  .btn-wraper{
+    flex-direction: column;
+
   }
-  to {
-    transform: rotate(360deg);
+  .btn-all-comp{
+    margin: 0;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    /* background-color: wheat; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
 }
